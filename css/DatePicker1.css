@@ -1,0 +1,135 @@
+body {
+    font-family: Poppins, sans serif;
+
+}
+
+html {
+    line-height: 1.5;
+    font-family: Poppins, sans serif;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87)
+}
+
+
+.time {
+    background-color: yellow;
+    text-align: left;
+  
+    /* padding: 1vh; */
+    /* margin: 1vw; */
+    /* height: 2vh; */
+
+}
+
+.number{
+    background-color: pink;
+    font-size: 6vw;
+    
+}
+
+#unit {
+    background-color: lightgreen;
+    font-size: 1.6vw;
+}
+
+.until {
+    background-color: cyan;
+    font-size: 3vw;
+    text-align: left;
+}
+
+/* ==================================*/
+/*Styling for Materialize input forms*/
+
+button,
+input,
+optgroup,
+select,
+textarea,
+label {
+    font-family: Poppins, sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,
+button:focus {
+    background-color: white;
+}
+
+
+
+/* ==================================*/
+/*Styling for Materialize Date Picker*/
+
+.datepicker-date-display,
+.datepicker-table td.is-selected,
+.month-next:focus,
+.month-prev:focus {
+    background-color: #333;
+    color: #fff
+}
+
+.datepicker-cancel,
+.datepicker-clear,
+.datepicker-today,
+.datepicker-done {
+    color: #333;
+
+}
+
+.datepicker-table td.is-today {
+    color: red;
+}
+
+.datepicker-day-button:focus {
+    background-color: #333;
+}
+
+
+/* label focus color */
+.input-field input[type=text]:focus+label,
+.materialize-textarea:focus:not([readonly])+label {
+    color: #333 !important;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus,
+.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid #333 !important;
+    box-shadow: 0 1px 0 0 #333 !important;
+}
+
+
+
+
+/*not sure what any of this stuff is*/
+/*--------------------------------------------------------*/
+.datepicker-date-display .year-text {
+    display: block;
+    font-size: 1.5rem;
+    line-height: 25px;
+    color: rgba(255, 255, 255, 0.7)
+}
+
+
+.white {
+    background-color: #fff !important
+}
+
+.white-text {
+    color: #fff !important
+}
+
+.transparent {
+    background-color: rgba(0, 0, 0, 0) !important
+}
+
+.transparent-text {
+    color: rgba(0, 0, 0, 0) !important
+}
+
+.black-text {
+    color: #000 !important
+}
